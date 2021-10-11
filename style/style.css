@@ -10,7 +10,7 @@
           background-color: #1C1D21;
           }
 
-          .header2 {
+          h3 {
             font-family:monospace;
             color:#BB9BB0;
             background-color: #1C1D21;
@@ -28,7 +28,7 @@
 
           }
 
-          .body {
+          p {
             font-family:monospace;
             color:#F1E3E4;
             background-color: #1C1D21;
@@ -39,8 +39,8 @@
           }
 
           .mainmain {
-            width: 80%;
-            float: right;
+            width: 60%;
+            float: left;
             padding: 15px;
             border: 5px solid #A288A6;
             background-color: #1C1D21;
@@ -54,6 +54,14 @@
             background-color: #1C1D21;
           }
 
+          .nan {
+            width: 20%;
+            float: right;
+            padding: 15px;
+            border: 5px solid #A288A6;
+            background-color: #1C1D21;
+          }
+
           .center {
           display: block;
           margin-left: auto;
@@ -62,12 +70,32 @@
           background-color: #1C1D21;
         }
 
-        a:link a:hover a:visited a:active {
-
+        a:link {
+          color: #CCBCBC;
+          cursor: auto;
+          text-decoration: none;
 
         }
 
-        a:hover a:active {
+        a:hover {
+          color: #CCBCBC;
+          cursor: auto;
+          text-decoration: underline;
+        }
+
+        a:link:active {
+          color: #F1E3E4;
           text-decoration: underline;
 
+        }
+
+        a:visited {
+          color: #F1E3E4;
+          text-decoration: underline;
+
+        }
+
+        li {
+          color:#F1E3E4;
+background-color: #1C1D21;
         }
